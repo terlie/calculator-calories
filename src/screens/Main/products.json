@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Roast eggs",
+      "weight": 100,
+      "calories": 151.1,
+      "proteins": 12.3,
+      "carbohydrates": 0.7,
+      "fats": 10.5
+    },
+    {
+      "id": 2,
+      "name": "Boiled eggs",
+      "weight": 100,
+      "calories": 160,
+      "proteins": 12.9,
+      "carbohydrates": 0.8,
+      "fats": 11.6
+    }
+  ]
+}
