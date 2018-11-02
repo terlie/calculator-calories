@@ -17,6 +17,33 @@
       "proteins": 12.9,
       "carbohydrates": 0.8,
       "fats": 11.6
+    },
+    {
+      "id": 3,
+      "name": "Banana",
+      "weight": 100,
+      "calories": 95,
+      "proteins": 1.5,
+      "carbohydrates": 22,
+      "fats": 0.2
+    },
+    {
+      "id": 4,
+      "name": "Rice",
+      "weight": 100,
+      "calories": 344,
+      "proteins": 6.7,
+      "carbohydrates": 79,
+      "fats": 0.7
+    },
+    {
+      "id": 5,
+      "name": "Chicken",
+      "weight": 100,
+      "calories": 190,
+      "proteins": 16,
+      "carbohydrates": 0,
+      "fats": 14
     }
   ]
 }
