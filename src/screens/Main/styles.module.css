@@ -1,3 +1,82 @@
-.select {
-  border: none;
+.list {
+  padding-left: 10px;
+  margin: 0 0 0 10px;
+  display: none;
+  position: relative;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+  list-style: none;
+  max-height: 250px;
+  overflow: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  max-width: 300px;
+  width: 100%;
+}
+
+.listShow {
+  display: block;
+}
+
+.btn {
+  padding: 0 15px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #1890ff;
+  border-color: #1890ff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.item {
+  position: relative;
+  padding: 5px 0;
+  display: inline-block;
+  margin-bottom: 10px;
+  line-height: 22px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.65);
+  white-space: nowrap;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.activeItem {
+  background-color: #d0d0d0;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.listRow {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.listRow:last-child {
+  border-bottom: none;
+}
+
+.weight {
+  margin-left: 10px;
+}
+.weightLabel {
+  display: block;
+  font-weight: normal;
+  color: #000000;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.weightNumber {
+  border-width: 0 0 1px 0;
 }
